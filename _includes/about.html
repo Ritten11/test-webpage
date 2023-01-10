@@ -1,0 +1,56 @@
+<!-- ABOUT -->
+
+<section id="about">
+	<div class="about-frame">
+		<div class="about-picture">
+			<figure>
+			   <p align="center">
+					<a href="{{ include.url }}">
+						<img src="/assets/images/pf-picture_2.jpg" 
+						style="width: {{ include.pf_width }};
+								border-radius: 10%"
+						alt="{{ include.alt }}"/>
+					</a>
+				</p>
+			</figure>
+
+			<!--<img src="https://media-exp1.licdn.com/dms/image/C4E03AQF7eImGj3XS-w/profile-displayphoto-shrink_200_200/0/1650971388313?e=1669852800&v=beta&t=jIBtlgT5YW7rwquzurkKjvJl_Ew2m8Tm0uhq-UKWcpo" 
+class="about-image img-fluid" alt="Ben's Resume HTML Template"> -->
+		</div>
+		<div class="about-text">
+			{{include.discription}}
+			
+
+			<ul class="profile-list">
+				<li><strong>Full Name :</strong> {{include.name}} </li>
+
+				<li><strong>Date of Birth:</strong> {{include.birthday}}</li>
+
+				<li><strong>Website :</strong> {{site.url}}</li>
+
+				<li><strong>Email :</strong> {{site.email}}</li>
+			</ul>
+		</div> 
+
+	</div>
+	<div class="about-third">
+		<div class="about-third-text">
+			<h4><b>Curious</b></h4>
+			<p style="font-size:0.8em">
+				Curiosity is what motivates my to explore new fields of research and broaden my horizon. Seeing how other people solved the problems they encountered is a major source for my own inspiration.
+			</p>
+		</div>
+		<div class="about-third-text">
+			<h4><b>Unconventional</b></h4>
+			<p style="font-size:0.8em">
+				Just because something has become the status-quo, does not mean there is no room for improvement. The most interesting ideas come from least expected places.
+			</p>
+		</div>
+		<div class="about-third-text">
+			<h4><b>Dedicated</b></h4>
+			<p style="font-size:0.8em">
+				Rome was not build in a day, and neither can major problems be solved with minimal effort. Going the extra mile is a requirement for delivering a well developed and tested product.
+			</p>
+		</div>
+	</div>
+</section>
