@@ -7,46 +7,33 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+repository: " Ritten11/ritten11.github.io"
+url: "https://ritten11.github.io/"
+baseurl: ""
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: MM
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: "contrast" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-search: true
+title: Portfolio of Ritten
+email: h.m.roothaert@gmail.com
+description: Portfolio of Ritten Roothaert, PhD at the Vrij Universiteit in the Netherlands. Interesting projects and achivements are showcased here.
+github_username: Ritten11
+minimal_mistakes_skin: "dirt" #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin2: "dark"
+search: false
+logo: "/assets/images/Sigil.png"
 
 # Build settings
 markdown: kramdown
+kramdown:
+  math_engine: nil
 remote_theme: mmistakes/minimal-mistakes
+github: [metadata]
 # Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+permalink: /:title/
+paginate: 12 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
 
 # Plugins (previously gems:)
 plugins:
@@ -54,38 +41,45 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
   - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-polyglot
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Ritten Roothaert (MSc.)"
+  avatar : "/assets/images/pf-picture_2.jpg"
+  bio    : "Scientist in explainable AI at the VU. The premise of my research revolves around the provenence of the uncerainty within information."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Mail"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:h.m.roothaert@gmail.com"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/julien-gu%C3%A9gan-852a30138/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/julien.guegan.754"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/julienguegan"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/julien_guegan_/?hl=fr"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/julien.guegan.754"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/julienguegan"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/julien_guegan_/?hl=fr"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/julien-gu%C3%A9gan-852a30138/"
 
 defaults:
   # _posts
@@ -97,8 +91,8 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
-      related: true
+      share: false
+      related: false
   # _pages
   - scope:
       path: "_pages"
@@ -113,3 +107,72 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light" # "github-dark"
+    issue_term: "pathname"
+
+google_site_verification: "_Cj2FZGjDR1sECXPRL64_CMVDm6adbKqCXSLHArYdSE"
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-TY0R5MX0LD"
+    anonymize_ip: false # default
+
+locale: "en-UK"
+
+social:
+  type: Person
+  name: Julien Guégan
+  links:
+    - "https://www.linkedin.com/in/julien-gu%C3%A9gan-852a30138/"
+    - "https://www.facebook.com/julien.guegan.754"
+    - "https://github.com/julienguegan"
+    - "https://www.instagram.com/julien_guegan_/?hl=fr"
+
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:path/ #;name
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# jekyll-polyglot
+languages: ["en", "nl"]
+default_lang: "en"
+exclude_from_localization: ["assets"]
+sass:
+  sourcemap: 'never'

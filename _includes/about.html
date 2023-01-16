@@ -6,9 +6,8 @@
 			<figure>
 			   <p align="center">
 					<a href="{{ include.url }}">
-						<img src="/assets/images/pf-picture_2.jpg" 
-						style="width: {{ include.pf_width }};
-								border-radius: 10%"
+						<img src="/assets/images/pf-picture_1.jpg" 
+						style="width:{{include.pf_width}}; border-radius:10%"
 						alt="{{ include.alt }}"/>
 					</a>
 				</p>
@@ -19,8 +18,29 @@ class="about-image img-fluid" alt="Ben's Resume HTML Template"> -->
 		</div>
 		<div class="about-text">
 			{{include.discription}}
-			
-
+			<table>
+				<tr>
+				  <td><strong>test</strong></td>
+				  <td>{{include.name}} </td>
+				  <!-- <td>Germany</td> -->
+				</tr>
+				<tr>
+				  <td><strong>Date of Birth :</strong></td>
+				  <td>{{include.birthday}}</td>
+				  <!-- <td>Mexico</td> -->
+				</tr>
+				<tr>
+				  <td><strong>Website :</strong></td>
+				  <td>{{site.url}}</td>
+				  <!-- <td>Mexico</td> -->
+				</tr>
+				<tr>
+				  <td><strong>Email :</strong></td>
+				  <td>{{site.email}}</td>
+				  <!-- <td>Mexico</td> -->
+				</tr>
+			</table> 
+<!-- 
 			<ul class="profile-list">
 				<li><strong>Full Name :</strong> {{include.name}} </li>
 
@@ -29,7 +49,7 @@ class="about-image img-fluid" alt="Ben's Resume HTML Template"> -->
 				<li><strong>Website :</strong> {{site.url}}</li>
 
 				<li><strong>Email :</strong> {{site.email}}</li>
-			</ul>
+			</ul> -->
 		</div> 
 
 	</div>

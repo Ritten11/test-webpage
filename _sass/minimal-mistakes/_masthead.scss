@@ -1,0 +1,216 @@
+/* ==========================================================================
+   MASTHEAD
+   ========================================================================== */
+
+.masthead {
+  position: relative;
+  border-bottom: 1px solid $border-color;
+  -webkit-animation: $intro-transition;
+  animation: $intro-transition;
+  -webkit-animation-delay: 0.15s;
+  animation-delay: 0.15s;
+  z-index: 20;
+
+  &__inner-wrap {
+    @include clearfix;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-family: $sans-serif-narrow;
+
+    @include breakpoint($x-large) {
+      max-width: $max-width;
+    }
+
+    nav {
+      z-index: 10;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.site-logo img {
+  max-height: 2rem;
+}
+
+.site-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+  align-self: center;
+  font-weight: bold;
+  // z-index: 20;
+}
+
+.site-subtitle {
+  display: block;
+  font-size: $type-size-8;
+}
+
+.masthead__menu {
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  clear: both;
+
+  .site-nav {
+    margin-left: 0;
+
+    @include breakpoint($small) {
+      float: right;
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    list-style-type: none;
+  }
+}
+
+.masthead__menu-item {
+  display: block;
+  list-style-type: none;
+  white-space: nowrap;
+
+  &--lg {
+    padding-right: 2em;
+    font-weight: 700;
+  }
+}
+
+.lang__toggle {
+  margin-left: 1rem;
+  margin-right: 1em;
+  height: $nav-toggle-height;
+  border: 0;
+  outline: none;
+  color: $primary-color;
+  background-color: transparent;
+  cursor: pointer;
+
+  &:before {
+      @supports (pointer-events: none) {
+          content: '';
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          opacity: 0;
+          background-color: $background-color;
+          -webkit-transition: $global-transition;
+          transition: $global-transition;
+          pointer-events: none;
+      }
+  }
+
+  &.close {
+      &:before {
+          opacity: 0.9;
+          -webkit-transition: $global-transition;
+          transition: $global-transition;
+          pointer-events: auto;
+      }
+  }
+}
+
+.lang-switcher {
+  li {
+      text-align: right;
+  }
+
+  .lang-option-active {
+      color: $masthead-link-color;
+      font-weight: bold;
+      padding: 10px 20px;
+  }
+}
+
+.floating-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 16px;
+  padding: 5px;
+  border: 1px solid $masthead-menu-border-color;
+  border-radius: $border-radius;
+  background: $background-color;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
+  box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
+  
+  
+  a {
+      margin: 0;
+      padding: 10px 20px;
+      font-size: $type-size-5;
+
+      &:hover {
+          background: $navicon-link-color-hover;
+          color: $masthead-link-color-hover;
+      }
+  }
+
+  li {
+      border-bottom: 1px solid $masthead-menu-border-color;
+
+      &:last-child {
+          border-bottom: none;
+      }
+  }
+}
+
+.greedy-nav {
+  a, svg.icon {
+      color: $masthead-link-color;
+  }
+
+  button {
+      padding: 0;
+      margin-left: 1rem;
+  }
+
+  .hidden-links {
+      &:before, &:after {
+          display: none;
+      }
+  }
+
+  .icon {
+      width: 1.5em;
+      height: 1.5em;
+      top: 0;
+  }
+
+  .search__toggle {
+      //color: revert;
+      height: unset;
+      margin-right: unset;
+  }
+
+  .theme__toggle {
+    height: unset;
+    margin-right: unset;
+    color: $primary-color;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+  }
+
+  .visible-links a:before {
+      background: $masthead-link-color-hover;
+  }
+}
