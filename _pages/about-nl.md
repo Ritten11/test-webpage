@@ -3,8 +3,31 @@ permalink: /about/
 lang: nl
 title: About
 classes: wide
-layout: about
+layout: single
 ---
+
+{% include about.html 
+        discription= 
+        "
+        Hi, 
+        <br><br>
+        I am Ritten, an AI-researcher with a diverse skill set. My drive is to 
+        find solutions to complex problems using custom build AI applications, 
+        with a special interest in the agricultural and biology domains. 
+        <br><br>
+        During my Masters degree in Artificial Intelligence at the University of Groningen, I 
+        encountered subjects such as machine learning, logic, knowledge systems,
+        cognitive psychology, neuro-ergonomics, microbiology and atmospheric modeling. 
+        "	
+        email="h.m.roothaert@gmail.com"
+        birthday="07-02-1998"
+        name="H.M. Roothaert"
+            
+        pf_width="300em"
+        alt="Profile picture"
+        
+%}
+
 
 ### Programming skills
 My preferred programming languages are Python and Java, but am also 

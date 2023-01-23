@@ -6,7 +6,7 @@
 			<figure>
 			   <p align="center">
 					<a href="{{ include.url }}">
-						<img src="/assets/images/pf-picture_1.jpg" 
+						<img src="/assets/images/pf-picture_2.jpg" 
 						style="width:{{include.pf_width}}; border-radius:10%"
 						alt="{{ include.alt }}"/>
 					</a>
@@ -20,22 +20,22 @@ class="about-image img-fluid" alt="Ben's Resume HTML Template"> -->
 			{{include.discription}}
 			<table>
 				<tr>
-				  <td><strong>test</strong></td>
+				  <td><strong>{{site.data.ui-text[site.active_lang].full_name_label | default: "Full name"}}:</strong></td>
 				  <td>{{include.name}} </td>
 				  <!-- <td>Germany</td> -->
 				</tr>
 				<tr>
-				  <td><strong>Date of Birth :</strong></td>
+				  <td><strong>{{site.data.ui-text[site.active_lang].birthdate_label | default: "Date of birth"}}:</strong></td>
 				  <td>{{include.birthday}}</td>
 				  <!-- <td>Mexico</td> -->
 				</tr>
 				<tr>
-				  <td><strong>Website :</strong></td>
+				  <td><strong>{{site.data.ui-text[site.active_lang].website_label | default: "Website"}}:</strong></td>
 				  <td>{{site.url}}</td>
 				  <!-- <td>Mexico</td> -->
 				</tr>
 				<tr>
-				  <td><strong>Email :</strong></td>
+				  <td><strong>{{site.data.ui-text[site.active_lang].email_label | default: "Email"}}:</strong></td>
 				  <td>{{site.email}}</td>
 				  <!-- <td>Mexico</td> -->
 				</tr>

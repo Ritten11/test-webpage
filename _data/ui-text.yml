@@ -17,7 +17,9 @@ en: &DEFAULT_EN
   toc_label                  : "On this page"
   ext_link_label             : "Direct link"
   less_than                  : "less than"
-  minute_read                : "minute read"
+  minute_read                : "minute read" 
+  minutes_read               : "minute read" ## Custom addition
+  read_time_filler           : "" ## Custom addition
   share_on_label             : "Share on"
   meta_label                 :
   tags_label                 : "Tags:"
@@ -50,9 +52,9 @@ en: &DEFAULT_EN
   search_algolia_no_results  : "No results"
   results_found              : "Result(s) found"
   back_to_top                : "Back to top"
-  birthdate_label            : "Date of birth"
-  age_lable                  : "Age"
-  full_name_label            : "Full name"
+  birthdate_label            : "Date of birth" ## Custom addition
+  age_lable                  : "Age" ## Custom addition
+  full_name_label            : "Full name" ## Custom addition
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -874,6 +876,8 @@ nl: &DEFAULT_NL
   ext_link_label             : "Directe Link"
   less_than                  : "minder dan"
   minute_read                : "minuut gelezen"
+  minutes_read               : "minuten gelezen" ## Custom addition
+  read_time_filler           : "In" ## Custom addition
   share_on_label             : "Deel op"
   meta_label                 :
   tags_label                 : "Labels:"
@@ -906,9 +910,9 @@ nl: &DEFAULT_NL
   search_algolia_no_results  :
   results_found              : "Resultaat gevonden"
   back_to_top                : "Terug naar boven"
-  birthdate_label            : "Geboortedatum"
-  age_lable                  : "Leeftijd"
-  full_name_label            : "Volledige naam"
+  birthdate_label            : "Geboortedatum" ## Custom addition
+  age_lable                  : "Leeftijd" ## Custom addition
+  full_name_label            : "Volledige naam" ## Custom addition
 nl-BE:
   <<: *DEFAULT_NL
 nl-NL:

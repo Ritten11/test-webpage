@@ -55,31 +55,31 @@ author:
       url: "mailto:h.m.roothaert@gmail.com"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/julien-gu%C3%A9gan-852a30138/"
+      url: "https://www.linkedin.com/in/h-m-roothaert/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/julien.guegan.754"
+      url: "https://www.facebook.com/ritten.roothaert"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/julienguegan"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/julien_guegan_/?hl=fr"
+      url: "https://github.com/Ritten11"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://www.instagram.com/julien_guegan_/?hl=fr"
 
 footer:
   links:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/julien.guegan.754"
+      url: "https://www.facebook.com/ritten.roothaert"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/julienguegan"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/julien_guegan_/?hl=fr"
+      url: "https://github.com/Ritten11"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://www.instagram.com/julien_guegan_/?hl=fr"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/julien-gu%C3%A9gan-852a30138/"
+      url: "https://www.linkedin.com/in/h-m-roothaert/"
 
 defaults:
   # _posts
@@ -128,10 +128,10 @@ social:
   type: Person
   name: Julien Guégan
   links:
-    - "https://www.linkedin.com/in/julien-gu%C3%A9gan-852a30138/"
+    - "https://www.linkedin.com/in/h-m-roothaert/"
     - "https://www.facebook.com/julien.guegan.754"
-    - "https://github.com/julienguegan"
-    - "https://www.instagram.com/julien_guegan_/?hl=fr"
+    - "https://github.com/Ritten11"
+    # - "https://www.instagram.com/julien_guegan_/?hl=fr"
 
 collections:
   posts:
