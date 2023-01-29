@@ -126,10 +126,10 @@ locale: "en-UK"
 
 social:
   type: Person
-  name: Julien Guégan
+  name: Ritten Roothaert
   links:
     - "https://www.linkedin.com/in/h-m-roothaert/"
-    - "https://www.facebook.com/julien.guegan.754"
+    - "https://www.facebook.com/ritten.roothaert"
     - "https://github.com/Ritten11"
     # - "https://www.instagram.com/julien_guegan_/?hl=fr"
 
@@ -137,6 +137,9 @@ collections:
   posts:
     output: true
     permalink: /:collection/:path/ #;name
+
+# Manually setting excerpt
+excerpt_separator: <!-- excerpt-end -->
 
 # Reading Files
 include:

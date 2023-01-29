@@ -5,7 +5,6 @@ title: About
 classes: wide
 layout: single
 ---
-
 {% include about.html 
         discription= 
         "
@@ -29,24 +28,22 @@ layout: single
 %}
 
 
-### Programming skills
-My preferred programming languages are Python and Java, but am also 
-acquainted with R, Lisp and C. 
+### Programmeertalen
+Mijn favoriete programmeertalen zijn Python en Java, maar ik ben ook bekend met R, Lisp en C. 
 
-### Languages
-I can speak both English and Dutch fluently, and understand German and Norwegian.
-
-
-### Personality
-Personality traits I would bring to a professional team are: team-oriented 
-competitiveness, unconventional thinking and the ability to quickly 
-understand new concepts.
+### Gesproken talen
+Ik spreek vloeiend Engels en Nederlands en heb een beperkt begrip van Duits, Spaans en Noors.
 
 
-### Notable accomplishments
-I'm always eager to learn about fields outside of his main expertise and look for ways on how to implement my skill set to these fields. This has been demonstrated by various projects, one of which being my contribution to [the iGEM competition][iGEM]. The iGEM competition is a competition where teams from across the world aim to use molecular microbiology to solve real-world problems. Without much background knowledge about the field of microbiology, I have managed to build an ML-model which was eventually nominated for 'best model' award in the overgraduate category. Other contributions to the team were human practice work and being the financial manager of the team. As icing on the cake, we even won the 'best environmental project' award, also within the overgraduate category!
+### Persoonlijkheid
+Persoonlijkheidskenmerken die ik in een professioneel team zou inbrengen zijn: teamgerichte
+competitiviteit, onconventioneel denken en het vermogen om snel 
+nieuwe concepten te begrijpen.
 
-Furthermore, I have finished my [Master's project][master project] in a field in which I had no prior knowledge; atmospheric inversions. The term atmospheric inversions is used to classify a wide range of techniques used to deduce a prior atmospheric state based on observations. What this state looks like depend on the domain of application. For my Master's project, this state represented the biases within CO<sub>2</sub> surface flux models. Using my research, a better forecast model of these biases has been created, increasing our confidence in the global CO<sub>2</sub> surface flux landscape. The final grade for this project was an 8.5, with a publication still pending. 
 
+### Prestaties
+Ik ben altijd gretig om te leren over gebieden die niet tot mijn voornaamste expertise behoren en ik zoek naar manieren om mijn vaardigheden op deze gebieden toe te passen. Dit is gebleken uit verschillende projecten, waaronder mijn bijdrage aan [de iGEM-competitie][iGEM]. De iGEM-competitie is een wedstrijd waarbij teams uit de hele wereld ernaar streven moleculaire microbiologie te gebruiken om echte problemen op te lossen. Zonder veel achtergrondkennis over het gebied van de microbiologie, ben ik erin geslaagd om een ML-model te bouwen dat uiteindelijk werd genomineerd voor de 'best model'-prijs in de categorie 'over graduate'. Andere bijdragen aan het team waren het ondersteunen van de human practice manager en het zijn van de financiële manager van het team. Als kers op de taart hebben we zelfs de 'best environmental project' award gewonnen, ook binnen de over graduate categorie!
+
+Verder heb ik mijn [Master's project][master project] gedaan in een veld waarin ik nauwelijks voorgaande kennis had; atmospherische inversies. De term atmospherische inversie word gebruikt om een breed scala aan technieken te classificeren die worden gebruikt om een atmospherische staat te achterhalen op basis van observaties. Wat deze staat precies inhoud hangt af van de desbetreffende toepassing. Voor mijn masterproject was deze staat gedefinieerd als de bias in CO<sub>2</sub>-oppervlaktefluxmodellen. Met behulp van mijn onderzoek is een beter voorspellingsmodel van deze biases gecreëerd, waardoor ons vertrouwen in het wereldwijde CO<sub>2</sub>-oppervlakfluxlandschap is toegenomen. Het eindcijfer voor dit project was een 8,5.
 [iGEM]: /portfolio/update/2021/10/27/ByeMonia.html
 [master project]: /portfolio/update/2022/11/25/CO2DataAssimilation.html

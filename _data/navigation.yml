@@ -7,3 +7,17 @@ main:
     url: /about/
   - title: "CV"
     url: /cv/
+# languages: 
+# - language: "en" 
+#   links: 
+#   - title: "About" url: /about/ 
+#   - title: "Posts" url: /posts/ 
+#   - title: "CV" url: /cv/ 
+#   - title: "Home" url: /home/
+ 
+# - language: "pt" 
+#   links: 
+#   - title: "Over mij" url: /about/ 
+#   - title: "Posts" url: /posts/ 
+#   - title: "CV" url: /cv/ 
+#   - title: "Home" url: /home/

@@ -7,9 +7,9 @@ classes: wide
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
 {% if paginator %}
-  {% assign posts = paginator.posts %}
+  {% assign posts = paginator.posts | where_exp: "item", "item.lang contains site.active_lang" %}
 {% else %}
-  {% assign posts = site.posts %}
+  {% assign posts = site.posts | where_exp: "item", "item.lang contains site.active_lang" %}
 {% endif %}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
