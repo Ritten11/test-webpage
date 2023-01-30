@@ -45,26 +45,28 @@ plugins:
   - jekyll-seo-tag
   - jekyll-polyglot
 
-author:
-  name   : "Ritten Roothaert (MSc.)"
-  avatar : "/assets/images/pf-picture_2.jpg"
-  bio    : "Scientist in explainable AI at the VU. The premise of my research revolves around the provenence of the uncerainty within information."
-  links:
-    - label: "Mail"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:h.m.roothaert@gmail.com"
-    - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/h-m-roothaert/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/ritten.roothaert"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Ritten11"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://www.instagram.com/julien_guegan_/?hl=fr"
+authors:
+  Ritten:
+    name   : "Ritten Roothaert (MSc.)"
+    # title_post: ""
+    avatar : "/assets/images/pf-picture_2.jpg"
+    bio    : "Scientist in explainable AI at the VU. The premise of my research revolves around the provenence of the uncerainty within information."
+    links:
+      - label: "Mail"
+        icon: "fas fa-fw fa-envelope-square"
+        url: "mailto:h.m.roothaert@gmail.com"
+      - label: "Linkedin"
+        icon: "fab fa-fw fa-linkedin"
+        url: "https://www.linkedin.com/in/h-m-roothaert/"
+      - label: "Facebook"
+        icon: "fab fa-fw fa-facebook-square"
+        url: "https://www.facebook.com/ritten.roothaert"
+      - label: "GitHub"
+        icon: "fab fa-fw fa-github"
+        url: "https://github.com/Ritten11"
+      # - label: "Instagram"
+      #   icon: "fab fa-fw fa-instagram"
+      #   url: "https://www.instagram.com/julien_guegan_/?hl=fr"
 
 footer:
   links:
